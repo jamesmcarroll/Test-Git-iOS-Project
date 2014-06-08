@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF33913E1944CDE0000277EC /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF33913D1944CDE0000277EC /* CCTest.m */; };
 		EF37F82C194381E80019BB06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF37F82B194381E80019BB06 /* Foundation.framework */; };
 		EF37F82E194381E80019BB06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF37F82D194381E80019BB06 /* CoreGraphics.framework */; };
 		EF37F830194381E80019BB06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF37F82F194381E80019BB06 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF33913C1944CDE0000277EC /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		EF33913D1944CDE0000277EC /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 		EF37F828194381E80019BB06 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF37F82B194381E80019BB06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EF37F82D194381E80019BB06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				EF37F83D194381E80019BB06 /* Main.storyboard */,
 				EF37F840194381E80019BB06 /* CCViewController.h */,
 				EF37F841194381E80019BB06 /* CCViewController.m */,
+				EF33913C1944CDE0000277EC /* CCTest.h */,
+				EF33913D1944CDE0000277EC /* CCTest.m */,
 				EF37F843194381E80019BB06 /* Images.xcassets */,
 				EF37F832194381E80019BB06 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF37F83C194381E80019BB06 /* CCAppDelegate.m in Sources */,
+				EF33913E1944CDE0000277EC /* CCTest.m in Sources */,
 				EF37F838194381E80019BB06 /* main.m in Sources */,
 				EF37F842194381E80019BB06 /* CCViewController.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				EF37F85C194381E80019BB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF37F85D194381E80019BB06 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				EF37F85F194381E80019BB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
